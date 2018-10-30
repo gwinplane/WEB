@@ -338,8 +338,8 @@ header .button {
 	font-weight: normal;
 	font-family: "BebasBold";
 	font-size: 20px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-bottom: 7px;
 }
 
 .mc_item a:hover h4,
@@ -367,6 +367,9 @@ header .button {
 .mc_item_wrap.active mc_toggle,
 .mc_item_wrap:hover .mc_toggle {
 	background-color: #353535;
+	background-image: url(../img/gal_red.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .mc_item_wrap {
@@ -380,6 +383,7 @@ header .button {
 .mc_wrap {
 	text-align: center;
 	padding:0;
+	position: relative;
 }
 
 .mc_item_wrap a {
@@ -433,6 +437,32 @@ header .button {
 	background-position: 26px 19px;
 	background-image: url(../img/menu_6.png);
 	
+}
+
+.mc_item_wrap.active > ul {
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 20px;
+	background-color: #353535;
+	margin-top: 25px;
+
+}
+
+.mc_item_wrap.active > ul li {
+	display: inline-block;
+	font-family: "BebasRegular";
+}
+
+.mc_item_wrap.active > ul li a {
+	padding: 0 10px;
+	text-decoration: underline;
+}
+
+.mc_item_wrap.active > ul li a:hover {
+	text-decoration: none;
 }
 
 
