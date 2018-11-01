@@ -146,7 +146,8 @@ header h1 {
     font-size: 20px;
     border-bottom: #AC160A 5px solid;
     color: #fff;
-    font-family: "BebasBold"; 
+    font-family: "BebasBold";
+
 }
 
 .button:hover {
@@ -515,18 +516,54 @@ p.h_descr {
 
 .home_items {
 	background-color: #D6D6D6;
-	padding: 30px 0;
+	padding: 40px 0;
 	margin-top: 40px; 
 }
 
 .hi_item img {
 	max-width: 100%;
+	border-top: #AC160A 8px solid;
 }
 
 .hi_item {
 	color: #050505;
 	text-align: center;
 	font-size: 14px;
+	margin-bottom: 60px;
+
+}
+
+.s_bottom img {
+	bottom: 0;
+	max-width: 90%;
+	position: absolute;
+}
+
+.s_bottom {
+	padding-top: 32px;
+}
+
+.sb_header .button_cont {
+	text-align: right;
+
+
+}
+
+.sb_header h2 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: BebasRegular;
+	font-size: 36px;
+
+}
+
+.sb_content {
+	margin-top: 30px;
+
+}
+
+.sb_but {
+	float: right;
 }
 
 
