@@ -42,6 +42,8 @@ body {
 	position: relative;
 }
 
+
+
 header {
 	background-image: url(../img/1680-644.jpg);
 	background-repeat: repeat-x;
@@ -546,7 +548,6 @@ p.h_descr {
 .sb_header .button_cont {
 	text-align: right;
 
-
 }
 
 .sb_header h2 {
@@ -564,13 +565,50 @@ p.h_descr {
 
 .sb_but {
 	float: right;
+	letter-spacing: 2px;
+}
+
+.foot {
+	background-color: #2a2a2a;
+	padding: 3px 0 4px;
 }
 
 
+.foot_up {
+	height: 96px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+}
 
+.pic_left {
+	color: #fff;
+	font-family: BebasRegular;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
 
+ .pic_left p {
+	margin-top: 0;
+	margin-bottom: -15px;
+ }
 
+.fo_ul {
+	flex-direction: row;
+	display: flex;
+	list-style-type: none;
+	align-items: center;
 
+}
+
+.fo_aa {
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 0 10px;
+    font-family: BebasRegular;
+
+}
 
 
 
